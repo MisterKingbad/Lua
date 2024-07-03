@@ -32,5 +32,6 @@ print(energia <= maisEnergia)
 
 nome = ""
 print(nome)
+---@diagnostic disable-next-line: cast-local-type
 nome = nil
 print(nome)
